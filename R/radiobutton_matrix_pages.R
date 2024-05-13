@@ -2,7 +2,7 @@
 #'
 #' The \code{*_NAC_matrix_page} functions create a radio button matrix page.
 #' They can be thought of as extensions of the
-#' \code{\link[psychTestR]{NAFC_page()}} as they not only display one question
+#' \code{\link[psychTestR]{NAFC_page}()} as they not only display one question
 #' or item, but a list of questions or items to be answered on the same
 #' response scale.
 #' @name radiobutton_matrix_pages
