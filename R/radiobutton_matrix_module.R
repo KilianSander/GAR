@@ -123,7 +123,7 @@ audio_NAC_matrix_module <- function(label = "EM01",
               },
               next_elt = TRUE
             ),
-            psychTestR::elt_save_results_to_disk(complete = TRUE)
+            psychTestR::elt_save_results_to_disk(complete = FALSE)
           ),
           dict = dict
         )
@@ -242,7 +242,7 @@ matrix_item_order_module <- function(num_rating_items,
         )
       }
     ),
-    psychTestR::elt_save_results_to_disk(complete = TRUE),
+    psychTestR::elt_save_results_to_disk(complete = FALSE),
     psychTestR::end_module()
   )
 }
@@ -353,7 +353,7 @@ audio_NAC_matrix_module2 <- function(label = "EM01",
               },
               next_elt = TRUE
             ),
-            psychTestR::elt_save_results_to_disk(complete = TRUE)
+            psychTestR::elt_save_results_to_disk(complete = FALSE)
           ),
           dict = dict
         )
